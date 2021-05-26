@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     padding-top: 800px;
@@ -9,7 +8,7 @@ body {
     width: 300px;
 }
 
-#welcome {
+#Home {
     position: absolute;
     overflow: hidden;
     height: 800px;
@@ -48,7 +47,7 @@ h2 {
     font-family: 'Lobster Two', cursive;
 }
 
-#AboutMe {
+.sec {
     padding: 50px;
     text-align: center;
 }
@@ -60,7 +59,9 @@ h2 {
     margin: 8px auto;
 }
 
-#AboutMe {
+#biopara {
+    max-width: 450px;
+    margin: 25px auto;
     line-height: 1.3;
 }
 .menu{
@@ -74,11 +75,23 @@ h2 {
 }
 .link{
     float: left;
-    color: black;
+    color: aquamarine;
     padding-top: 5px;
     padding-left: 10px;
     padding-right: 10xp;
     padding-bottom: 5px;
     font-family: fantasy;
     font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.article:hover{
+    color: aquamarine;
+}
+html{
+    scroll-behavior: smooth;
+}
+.link:hover{
+    background-color: black;
 }
